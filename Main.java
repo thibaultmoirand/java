@@ -52,15 +52,15 @@ public class Main {
         System.out.println("Nombre de clients pour chaque fournisseurs");
         System.out.println(Arrays.toString(nbDeCliens));
 
-        System.out.println("Parts de marché:");
-        for(int i=0;i<listeFournisseursDistincts.length;i++)
-        {
-            System.out.println(String.format("=> %s \t: %d clients sur %d (%.1f%%)"
-                    , listeFournisseursDistincts[i]
-                    , nbDeCliens[i]
-                    , email.length,
-                    (nbDeCliens[i]*100.0/email.length)));
-        }
+//        System.out.println("Parts de marché:");
+//        for(int i=0;i<listeFournisseursDistincts.length;i++)
+//        {
+//            System.out.println(String.format("=> %s \t: %d clients sur %d (%.1f%%)"
+//                    , listeFournisseursDistincts[i]
+//                    , nbDeCliens[i]
+//                    , email.length,
+//                    (nbDeCliens[i]*100.0/email.length)));
+//        }
 
     }
 }

@@ -29,10 +29,6 @@ public class exo3 {
             if (chiffre1 > randomNb){
                 System.out.println("moin");
             }
-            long start = System.currentTimeMillis();
-// ...
-            long finish = System.currentTimeMillis();
-            long timeElapsed = finish - start;
         }
 
 
