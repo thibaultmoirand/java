@@ -11,10 +11,10 @@ public class Main {
         int ad = 0;
 
 
-        String[] Log;
-        String[] log = {"log"};
-        Log = new String[1];
-        Log[0]=log[0];
+//        String[] Log;
+//        String[] log = {"log"};
+//        Log = new String[1];
+//        Log[0]=log[0];
 
 
         Cliens c1 = new Cliens();
@@ -66,7 +66,7 @@ public class Main {
                             System.out.println("2 : consulter le solde");
                             System.out.println("3 : deposer de l'argent");
                             System.out.println("4 : retirer de l'argent");
-                            System.out.println("5 : consulter l'historique des operations");
+//                            System.out.println("5 : consulter l'historique des operations");
                             System.out.println("6 : back");
                             System.out.println("7 : quitter");
                             Scanner sChoix2 = new Scanner(System.in);
@@ -118,13 +118,13 @@ public class Main {
                                     System.out.println(" rentrer le montent que vous vouller deposer");
                                     Scanner modifsoldx = new Scanner(System.in);
                                     int modifsold = modifsoldx.nextInt();
-                                    String[] modifsoldlog = {"depo de :"+modifsoldx.nextLine()};
+//                                    String[] modifsoldlog = {"depo de :"+modifsoldx.nextLine()};
                                     c1.setSold(c1.getSold()+ modifsold);
                                     modifsold = 0;
 
 
-                                    Log = Arrays.copyOf(Log, Log.length+1);
-                                    Log[Log.length-1]=modifsoldlog[0];
+//                                    Log = Arrays.copyOf(Log, Log.length+1);
+//                                    Log[Log.length-1]=modifsoldlog[0];
 
 
                                     System.out.println("votre nouveaux sold est de : "+c1.getSold());
@@ -170,27 +170,27 @@ public class Main {
                                         ab++;
                                     }
                                 }
-                            } else if (choix2 == 5) {
-                                while (ad <= 1) {
-                                    System.out.println(" consulter l'historique des operations");
-                                    System.out.println(Log);
-
-
-
-                                    System.out.println("1 : back");
-                                    System.out.println("2 : quitter");
-                                    Scanner modifx = new Scanner(System.in);
-                                    int modif = modifx.nextInt();
-                                    if (modif == 1) {
-                                        ad++; ad++;
-                                    } else if (modif == 2) {
-                                        ad++; ad++;
-                                        ac++;
-                                        ac++;
-                                        ab++;
-                                        ab++;
-                                    }
-                                }
+//                            } else if (choix2 == 5) {
+//                                while (ad <= 1) {
+//                                    System.out.println(" consulter l'historique des operations");
+//                                    System.out.println(Log);
+//
+//
+//
+//                                    System.out.println("1 : back");
+//                                    System.out.println("2 : quitter");
+//                                    Scanner modifx = new Scanner(System.in);
+//                                    int modif = modifx.nextInt();
+//                                    if (modif == 1) {
+//                                        ad++; ad++;
+//                                    } else if (modif == 2) {
+//                                        ad++; ad++;
+//                                        ac++;
+//                                        ac++;
+//                                        ab++;
+//                                        ab++;
+//                                    }
+//                                }
 
 
                             } else if (choix2 == 6) {
