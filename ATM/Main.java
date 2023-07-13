@@ -9,10 +9,14 @@ public class Main {
         int ab = 0;
         int ac = 0;
         int ad = 0;
+
+
         String[] Log;
         String[] log = {"log"};
         Log = new String[1];
         Log[0]=log[0];
+
+
         Cliens c1 = new Cliens();
         c1.setCode(0000);
         c1.setNom("titi");
